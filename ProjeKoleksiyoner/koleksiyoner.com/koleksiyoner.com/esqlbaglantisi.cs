@@ -9,6 +9,7 @@ namespace koleksiyoner.com
 {
     public class esqlbaglantisi
     {
+        //koleksiyoner.com
         public SqlConnection baglan()
         {
             SqlConnection baglanti = new SqlConnection("Data Source=.; Initial Catalog=koleksiyoner; Integrated Security=true;");
