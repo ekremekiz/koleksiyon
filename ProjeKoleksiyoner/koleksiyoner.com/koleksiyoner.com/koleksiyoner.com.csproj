@@ -102,6 +102,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminGiris.aspx" />
+    <Content Include="css\datePicker.css" />
+    <Content Include="css\pro_dropline.css" />
+    <Content Include="css\pro_dropline_ie.css" />
+    <Content Include="css\screen.css" />
     <Content Include="images\addtocart.gif" />
     <Content Include="images\bann1.jpg" />
     <Content Include="images\bann2.jpg" />
@@ -131,12 +136,46 @@
     <Content Include="images\favs.png" />
     <Content Include="images\footer_bg.gif" />
     <Content Include="images\footer_logo.png" />
+    <Content Include="images\forms\bg_related_act.gif" />
+    <Content Include="images\forms\bubble_inner.gif" />
+    <Content Include="images\forms\bubble_left.gif" />
+    <Content Include="images\forms\bubble_right.gif" />
+    <Content Include="images\forms\choose-file.gif" />
+    <Content Include="images\forms\error_left.gif" />
+    <Content Include="images\forms\error_right.gif" />
+    <Content Include="images\forms\form_inp.gif" />
+    <Content Include="images\forms\form_inp_error.gif" />
+    <Content Include="images\forms\form_reset.gif" />
+    <Content Include="images\forms\form_select.gif" />
+    <Content Include="images\forms\form_select_small.gif" />
+    <Content Include="images\forms\form_submit.gif" />
+    <Content Include="images\forms\form_textarea.gif" />
+    <Content Include="images\forms\header_related_act.gif" />
+    <Content Include="images\forms\icon_calendar.jpg" />
+    <Content Include="images\forms\icon_edit.gif" />
+    <Content Include="images\forms\icon_list_arrow.gif" />
+    <Content Include="images\forms\icon_minus.gif" />
+    <Content Include="images\forms\icon_plus.gif" />
+    <Content Include="images\forms\lines_dotted_short.gif" />
+    <Content Include="images\forms\step_1.gif" />
+    <Content Include="images\forms\step_dark_left.gif" />
+    <Content Include="images\forms\step_dark_right.gif" />
+    <Content Include="images\forms\step_dark_round.gif" />
+    <Content Include="images\forms\step_light_left.gif" />
+    <Content Include="images\forms\step_light_right.gif" />
+    <Content Include="images\forms\step_light_round.gif" />
+    <Content Include="images\forms\upload_file.gif" />
     <Content Include="images\header_bg.jpg" />
     <Content Include="images\header_divider.png" />
     <Content Include="images\home.png" />
     <Content Include="images\iphone.png" />
     <Content Include="images\laptop.gif" />
     <Content Include="images\laptop.png" />
+    <Content Include="images\login\icon_back_login.gif" />
+    <Content Include="images\login\inp_login.gif" />
+    <Content Include="images\login\loginbox_bg.png" />
+    <Content Include="images\login\login_bg.jpg" />
+    <Content Include="images\login\submit_login.gif" />
     <Content Include="images\logo.png" />
     <Content Include="images\menu_bg.gif" />
     <Content Include="images\menu_divider.gif" />
@@ -163,13 +202,96 @@
     <Content Include="images\pul2.jpg" />
     <Content Include="images\search.gif" />
     <Content Include="images\services.png" />
+    <Content Include="images\shared\blank.gif" />
+    <Content Include="images\shared\border_bit.jpg" />
+    <Content Include="images\shared\cal_th_repeat.jpg" />
+    <Content Include="images\shared\cal_top_bg.jpg" />
+    <Content Include="images\shared\cal_top_repeat.jpg" />
+    <Content Include="images\shared\checkbox.gif" />
+    <Content Include="images\shared\content_repeat.jpg" />
+    <Content Include="images\shared\corner_bottom_left.jpg" />
+    <Content Include="images\shared\corner_bottom_right.jpg" />
+    <Content Include="images\shared\corner_top_left.jpg" />
+    <Content Include="images\shared\corner_top_right.jpg" />
+    <Content Include="images\shared\icon_idlogo.jpg" />
+    <Content Include="images\shared\logo.png" />
+    <Content Include="images\shared\nav\account_drop_bg.gif" />
+    <Content Include="images\shared\nav\account_line.gif" />
+    <Content Include="images\shared\nav\back_0.gif" />
+    <Content Include="images\shared\nav\back_1x.gif" />
+    <Content Include="images\shared\nav\Copy of pro_line_1.gif" />
+    <Content Include="images\shared\nav\divider.jpg" />
+    <Content Include="images\shared\nav\icon_acc_inbox.gif" />
+    <Content Include="images\shared\nav\icon_acc_personal.gif" />
+    <Content Include="images\shared\nav\icon_acc_projects.gif" />
+    <Content Include="images\shared\nav\icon_acc_settings.gif" />
+    <Content Include="images\shared\nav\icon_acc_stats.gif" />
+    <Content Include="images\shared\nav\nav_logout.gif" />
+    <Content Include="images\shared\nav\nav_myaccount.gif" />
+    <Content Include="images\shared\nav\pro_line_0x.gif" />
+    <Content Include="images\shared\nav\pro_line_1.gif" />
+    <Content Include="images\shared\nav\pro_line_2.gif" />
+    <Content Include="images\shared\nav\repeat.jpg" />
+    <Content Include="images\shared\side_shadowleft.jpg" />
+    <Content Include="images\shared\side_shadowright.jpg" />
+    <Content Include="images\shared\top_bg.jpg" />
+    <Content Include="images\shared\top_search_btn.gif" />
+    <Content Include="images\shared\top_search_inp.gif" />
+    <Content Include="images\shared\top_search_select.gif" />
+    <Content Include="images\shared\year_next.gif" />
+    <Content Include="images\shared\year_prev.gif" />
     <Content Include="images\shoppingcart.png" />
     <Content Include="images\square-blue-add.gif" />
+    <Content Include="images\table\actions_slider_bg.gif" />
+    <Content Include="images\table\action_delete.gif" />
+    <Content Include="images\table\action_edit.gif" />
+    <Content Include="images\table\content_round_repeat.jpg" />
+    <Content Include="images\table\content_round_top.jpg" />
+    <Content Include="images\table\dropdown_actions.gif" />
+    <Content Include="images\table\icon_close_blue.gif" />
+    <Content Include="images\table\icon_close_green.gif" />
+    <Content Include="images\table\icon_close_red.gif" />
+    <Content Include="images\table\icon_close_yellow.gif" />
+    <Content Include="images\table\message_blue.gif" />
+    <Content Include="images\table\message_green.gif" />
+    <Content Include="images\table\message_red.gif" />
+    <Content Include="images\table\message_yellow.gif" />
+    <Content Include="images\table\paging_far_left.gif" />
+    <Content Include="images\table\paging_far_right.gif" />
+    <Content Include="images\table\paging_left.gif" />
+    <Content Include="images\table\paging_right.gif" />
+    <Content Include="images\table\select_number_rows.gif" />
+    <Content Include="images\table\table_header.jpg" />
+    <Content Include="images\table\table_header_checkbox.jpg" />
+    <Content Include="images\table\table_header_options.jpg" />
+    <Content Include="images\table\table_header_repeat.jpg" />
+    <Content Include="images\table\table_icon_1.gif" />
+    <Content Include="images\table\table_icon_2.gif" />
+    <Content Include="images\table\table_icon_3.gif" />
+    <Content Include="images\table\table_icon_4.gif" />
+    <Content Include="images\table\table_icon_5.gif" />
+    <Content Include="images\table\table_sort_arrow.gif" />
     <Content Include="images\thumb1.gif" />
     <Content Include="images\thumb2.gif" />
     <Content Include="images\top_search_bg.gif" />
     <Content Include="images\user_add.png" />
     <Content Include="js\boxOver.js" />
+    <Content Include="js\jquery\Copy of custom_jquery.js" />
+    <Content Include="js\jquery\custom_jquery.js" />
+    <Content Include="js\jquery\date.js" />
+    <Content Include="js\jquery\jquery-1.4.1.min.js" />
+    <Content Include="js\jquery\jquery.bind.js" />
+    <Content Include="js\jquery\jquery.datePicker.js" />
+    <Content Include="js\jquery\jquery.dimensions.js" />
+    <Content Include="js\jquery\jquery.filestyle.js" />
+    <Content Include="js\jquery\jquery.pngFix.pack.js" />
+    <Content Include="js\jquery\jquery.selectbox-0.5.js" />
+    <Content Include="js\jquery\jquery.selectbox-0.5_style_2.js" />
+    <Content Include="js\jquery\jquery.selectbox-0.5_style_3.js" />
+    <Content Include="js\jquery\jquery.tooltip.js" />
+    <Content Include="js\jquery\jquery.usermode.js" />
+    <Content Include="js\jquery\ui.checkbox.js" />
+    <Content Include="js\jquery\ui.core.js" />
     <Content Include="js\windowopen.js" />
     <Content Include="KullaniciGiris.aspx" />
     <Content Include="KullaniciProfil.aspx" />
@@ -183,8 +305,16 @@
     </Content>
     <Content Include="SiteIletisim.aspx" />
     <Content Include="SiteMaster.Master" />
+    <Content Include="UrunEkle.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="SiteKullanici.Master" />
+    <Content Include="images\Thumbs.db" />
+    <Content Include="images\forms\Thumbs.db" />
+    <Content Include="images\login\Thumbs.db" />
+    <Content Include="images\shared\nav\Thumbs.db" />
+    <Content Include="images\shared\Thumbs.db" />
+    <Content Include="images\table\Thumbs.db" />
+    <Content Include="AdminMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -202,6 +332,20 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminGiris.aspx.cs">
+      <DependentUpon>AdminGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminGiris.aspx.designer.cs">
+      <DependentUpon>AdminGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="esqlbaglantisi.cs" />
     <Compile Include="KullaniciGiris.aspx.cs">
       <DependentUpon>KullaniciGiris.aspx</DependentUpon>
@@ -253,12 +397,20 @@
     <Compile Include="SiteMaster.Master.designer.cs">
       <DependentUpon>SiteMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="SQLBaglanti.cs" />
     <Compile Include="UrunDetay.aspx.cs">
       <DependentUpon>UrunDetay.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UrunDetay.aspx.designer.cs">
       <DependentUpon>UrunDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UrunEkle.aspx.cs">
+      <DependentUpon>UrunEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UrunEkle.aspx.designer.cs">
+      <DependentUpon>UrunEkle.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
